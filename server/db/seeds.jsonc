@@ -147,7 +147,6 @@ db.recipes.insertMany([
         "category": "lunch",
         "servings" : 8
     },
-   
     {
         "name" : "Beef Burger",
         "ingredients" : [
@@ -178,7 +177,6 @@ db.recipes.insertMany([
       "category" : "dinner",
       "servings" : 8
     },  
-
     {
       "name" : "Buffalo Wings with Blue Cheese Sauce",
       "ingredients" : [
@@ -233,76 +231,73 @@ db.recipes.insertMany([
       "category" : "dinner",
       "servings" : 4,
       "notes" : "here is note"
-      },
-      
-      {
-      "name" : "Slow Cooker Pulled Pork",
-      "ingredients" : [
-          { "amount" : 800,
-            "unit" : "g",
-            "ingredient" : "pork shoulder" },
-          { "amount" : 2,
-            "ingredient" : "red onions" },
-          { "amount" : 4,
-            "ingredient" : "garlic cloves" },
-          { "amount" : 1,
-            "unit" : "tbsp",
-            "ingredient" : "ground cumin" },
-          { "amount" : 1,
-            "unit" : "tbsp",
-            "ingredient" : "ground coriander" },
-          { "amount" : 0.5,
-            "unit" : "tsp",
-            "ingredient" : "chilli powder" },
-          { "amount" : 0.5,
-            "unit" : "tsp",
-            "ingredient" : "paprika" },
-          { "amount" : 0.5,
-            "unit" : "tsp",
-            "ingredient" : "ground all spice" },
-          { "amount" : 2,
-            "unit" : "tsp",
-            "ingredient" : "oregano" },
-          { "amount" : 4,
-            "unit" : "tbsp",
-            "ingredient" : "tomato puree" },
-          { "amount" : 4,
-            "unit" : "tbsp",
-            "ingredient" : "red wine vinegar" },
-          { "amount" : 400,
-            "unit" : "g",
-            "ingredient" : "chopped tomatoes" }
-          ],
-      "method" : "Add all the ingredients (except the coriander, limes and Tabasco), some salt and pepper and 100ml water to your slow cooker and cook on low for 6 hours, or on high for 4 hours. There’s no need to stir the pork while it’s cooking so you can go out and leave it simmering (see Know-how below for how to cook it in a regular oven). Once the cooking time is up, check the seasoning then, using 2 forks, shred the meat to ‘pull’ it. Serve sprinkled with the coriander, with lime wedges for squeezing, hot sauce, if you like, and rice, as a jacket potato topper or in a Tex-Mex pasta bake.",
-      "image" : "https://www.deliciousmagazine.co.uk/wp-content/uploads/2021/04/960_SLOW_COOKED_PULLED_PORK_FLATBREAD_GUACAMOLE_SALSA_02-768x960.jpg",
-      "category" : "dinner",
-      "servings" : 8,
-      "notes" : ""
-      },
-      
-      {
-      "name" : "Ultimate Grilled Cheese Sandwich",
-      "ingredients" : [
-      { "amount" : 2,
-        "ingredient" : "crusty white bread slices" },
-      { "amount" : 25,
-        "unit" : "g",
-        "ingredient" : "cheddar" },
-      { "amount" : 25,
-        "unit" : "g",
-        "ingredient" : "gruyere" },
-      { "amount" : 25,
-        "unit" : "g",
-        "ingredient" : "mozzarella" },
-      ],
-      "method" : "Lightly toast the bread, then cool slightly. Spread butter on both sides of each slice, then divide the cheeses between them. Heat a splash of oil in the pan over a medium heat. Add both slices of bread, cheese-side up, then cover with the lid to help the cheese start to melt. After 2 minutes, remove the lid and continue frying until the underside of the bread is golden and the cheese looks melty. Carefully and quickly sandwich the 2 slices together so all the cheeses are in the middle, then gently press down with a spatula/fish slice and continue cooking until the cheese has melted and the bread is deep golden – it’s best to turn the sandwich every minute or so. Slice, then serve straightaway with gherkins and pickle/chutney.",
-      "image" : "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/01/02.Delicious-January-2020-cheese-sandwich-768x960.jpg",
-      "category" : "lunch",
-      "servings" : 1,
-      "notes" : ""
-      },
-      
-      {
+    },
+    {
+    "name" : "Slow Cooker Pulled Pork",
+    "ingredients" : [
+        { "amount" : 800,
+          "unit" : "g",
+          "ingredient" : "pork shoulder" },
+        { "amount" : 2,
+          "ingredient" : "red onions" },
+        { "amount" : 4,
+          "ingredient" : "garlic cloves" },
+        { "amount" : 1,
+          "unit" : "tbsp",
+          "ingredient" : "ground cumin" },
+        { "amount" : 1,
+          "unit" : "tbsp",
+          "ingredient" : "ground coriander" },
+        { "amount" : 0.5,
+          "unit" : "tsp",
+          "ingredient" : "chilli powder" },
+        { "amount" : 0.5,
+          "unit" : "tsp",
+          "ingredient" : "paprika" },
+        { "amount" : 0.5,
+          "unit" : "tsp",
+          "ingredient" : "ground all spice" },
+        { "amount" : 2,
+          "unit" : "tsp",
+          "ingredient" : "oregano" },
+        { "amount" : 4,
+          "unit" : "tbsp",
+          "ingredient" : "tomato puree" },
+        { "amount" : 4,
+          "unit" : "tbsp",
+          "ingredient" : "red wine vinegar" },
+        { "amount" : 400,
+          "unit" : "g",
+          "ingredient" : "chopped tomatoes" }
+        ],
+    "method" : "Add all the ingredients (except the coriander, limes and Tabasco), some salt and pepper and 100ml water to your slow cooker and cook on low for 6 hours, or on high for 4 hours. There’s no need to stir the pork while it’s cooking so you can go out and leave it simmering (see Know-how below for how to cook it in a regular oven). Once the cooking time is up, check the seasoning then, using 2 forks, shred the meat to ‘pull’ it. Serve sprinkled with the coriander, with lime wedges for squeezing, hot sauce, if you like, and rice, as a jacket potato topper or in a Tex-Mex pasta bake.",
+    "image" : "https://www.deliciousmagazine.co.uk/wp-content/uploads/2021/04/960_SLOW_COOKED_PULLED_PORK_FLATBREAD_GUACAMOLE_SALSA_02-768x960.jpg",
+    "category" : "dinner",
+    "servings" : 8,
+    "notes" : ""
+    },
+    {
+    "name" : "Ultimate Grilled Cheese Sandwich",
+    "ingredients" : [
+    { "amount" : 2,
+      "ingredient" : "crusty white bread slices" },
+    { "amount" : 25,
+      "unit" : "g",
+      "ingredient" : "cheddar" },
+    { "amount" : 25,
+      "unit" : "g",
+      "ingredient" : "gruyere" },
+    { "amount" : 25,
+      "unit" : "g",
+      "ingredient" : "mozzarella" },
+    ],
+    "method" : "Lightly toast the bread, then cool slightly. Spread butter on both sides of each slice, then divide the cheeses between them. Heat a splash of oil in the pan over a medium heat. Add both slices of bread, cheese-side up, then cover with the lid to help the cheese start to melt. After 2 minutes, remove the lid and continue frying until the underside of the bread is golden and the cheese looks melty. Carefully and quickly sandwich the 2 slices together so all the cheeses are in the middle, then gently press down with a spatula/fish slice and continue cooking until the cheese has melted and the bread is deep golden – it’s best to turn the sandwich every minute or so. Slice, then serve straightaway with gherkins and pickle/chutney.",
+    "image" : "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/01/02.Delicious-January-2020-cheese-sandwich-768x960.jpg",
+    "category" : "lunch",
+    "servings" : 1,
+    "notes" : ""
+    },
+    {
       "name" : "Triple Chocolate Cookies",
       "ingredients" : [
       { "amount" : 125,
@@ -337,9 +332,8 @@ db.recipes.insertMany([
       "category" : "sweet",
       "servings" : 14,
       "notes" : ""
-      },
-      
-      {
+    },
+    {
       "name" : "Eggs Benedict",
       "ingredients" : [
       { "amount" : 8,
